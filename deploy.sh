@@ -3,11 +3,11 @@ git commit -m $1 &&
 
 
 
-git checkout master
-git merge origin/master --allow-unrelated-histories
-git push --force -u origin master&&
+#git checkout master
+#git merge origin/master --allow-unrelated-histories
+#git push --force -u origin master&&
 
-#git push -u origin master&&
+git push -u origin master&&
 ssh root@164.132.227.35 <<EOF
 cd aulaadsn &&
 git pull origin master &&
