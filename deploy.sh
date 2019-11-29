@@ -1,8 +1,10 @@
 git add . &&
 git commit -m $1 &&
 
-git push origin master --allow-unrelated-histories
-git merge origin origin/master
+
+
+git checkout master
+git merge origin/master --allow-unrelated-histories
 git push --force -u origin master&&
 
 #git push -u origin master&&
