@@ -2,4 +2,14 @@
     Creche Kayk
     
 <div>
-   Sacolinhas de Natal
+   Sacolinhas de Natal!
+
+<ul>
+    <li>
+        <a href=@{CriancasR}>
+            Lista de Crianças
+
+
+<button class="btn btn-danger" onclick="entrar()">
+                ENTRAR
+            
